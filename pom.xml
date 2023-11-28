@@ -52,8 +52,7 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.11.0</version>
                     <configuration>
-                        <source>21</source>
-                        <target>21</target>
+                        <release>21</release>
                         <showDeprecation>true</showDeprecation>
                         <compilerArgument>-Xlint:unchecked</compilerArgument>
                     </configuration>
@@ -339,7 +338,7 @@
     <repositories>
         <repository>
             <id>netbeans-next</id>
-            <url>https://repository.apache.org/content/repositories/orgapachenetbeans-1136</url>
+            <url>https://repository.apache.org/content/repositories/orgapachenetbeans-1137</url>
         </repository>
         <repository>
             <id>mapton</id>
