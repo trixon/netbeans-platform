@@ -7,7 +7,7 @@
         <version>0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    
+
     <artifactId>runtime-container</artifactId>
     <packaging>pom</packaging>
 
@@ -15,21 +15,6 @@
         <dependency>
             <groupId>org.netbeans.modules</groupId>
             <artifactId>org-netbeans-core-startup</artifactId>
-            <version>${netbeans.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.netbeans.modules</groupId>
-            <artifactId>org-netbeans-bootstrap</artifactId>
-            <version>${netbeans.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.netbeans.api</groupId>
-            <artifactId>org-netbeans-libs-asm</artifactId>
-            <version>${netbeans.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.netbeans.modules</groupId>
-            <artifactId>org-netbeans-core-startup-base</artifactId>
             <version>${netbeans.version}</version>
         </dependency>
     </dependencies>
