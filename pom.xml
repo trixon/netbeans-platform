@@ -212,6 +212,11 @@
             <!-- NetBeans -->
             <dependency>
                 <groupId>org.netbeans.api</groupId>
+                <artifactId>org-netbeans-api-annotations-common</artifactId>
+                <version>${netbeans.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.netbeans.api</groupId>
                 <artifactId>org-openide-util-lookup</artifactId>
                 <version>${netbeans.version}</version>
             </dependency>
@@ -360,5 +365,6 @@
         <netbeans.hint.license>apache20</netbeans.hint.license>
         <openjfx.version>[21]</openjfx.version>
         <jackson.version>2.16.0</jackson.version>
+        <all.clusters>${project.build.directory}/${brandingToken}</all.clusters>
     </properties>
 </project>
