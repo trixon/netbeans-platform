@@ -174,7 +174,7 @@
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>license-maven-plugin</artifactId>
-                    <version>2.3.0</version>
+                    <version>2.4.0</version>
                     <!--                <executions>
                         <execution>
                             <id>download-licenses</id>
@@ -360,7 +360,7 @@
 
     <properties>
         <almond.version>21.0.0-SNAPSHOT</almond.version>
-        <netbeans.version>RELEASE200</netbeans.version>
+        <netbeans.version>RELEASE210</netbeans.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <netbeans.hint.license>apache20</netbeans.hint.license>
         <openjfx.version>[21.0.2]</openjfx.version>
