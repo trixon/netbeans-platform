@@ -364,7 +364,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <netbeans.hint.license>apache20</netbeans.hint.license>
         <openjfx.version>[21.0.2]</openjfx.version>
-        <jackson.version>2.16.1</jackson.version>
         <all.clusters>${project.build.directory}/${brandingToken}</all.clusters>
     </properties>
 </project>
