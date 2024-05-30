@@ -341,9 +341,9 @@
     </dependencyManagement>
 
     <repositories>
-        <!--        <repository>
+<!--        <repository>
             <id>netbeans-next</id>
-            <url>https://repository.apache.org/content/repositories/orgapachenetbeans-1137</url>
+            <url>https://repository.apache.org/content/repositories/orgapachenetbeans-1144</url>
         </repository>-->
         <repository>
             <id>mapton</id>
@@ -360,7 +360,7 @@
 
     <properties>
         <almond.version>21.0.0-SNAPSHOT</almond.version>
-        <netbeans.version>RELEASE210</netbeans.version>
+        <netbeans.version>RELEASE220</netbeans.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <netbeans.hint.license>apache20</netbeans.hint.license>
         <openjfx.version>[21.0.2]</openjfx.version>
