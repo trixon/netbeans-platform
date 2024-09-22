@@ -56,6 +56,7 @@
                         <target>21</target>
                         <showDeprecation>true</showDeprecation>
                         <compilerArgument>-Xlint:unchecked</compilerArgument>
+                        <proc>full</proc>
                     </configuration>
                 </plugin>
                 <plugin>
@@ -363,7 +364,7 @@
 
     <properties>
         <almond.version>21.0.0-SNAPSHOT</almond.version>
-        <netbeans.version>RELEASE220</netbeans.version>
+        <netbeans.version>RELEASE230</netbeans.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <netbeans.hint.license>apache20</netbeans.hint.license>
         <all.clusters>${project.build.directory}/${brandingToken}</all.clusters>
