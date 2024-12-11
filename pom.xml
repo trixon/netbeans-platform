@@ -163,7 +163,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-javadoc-plugin</artifactId>
-                    <version>3.11.1</version>
+                    <version>3.11.2</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -426,7 +426,7 @@
 
     <properties>
         <almond.version>21.0.0-SNAPSHOT</almond.version>
-        <netbeans.version>RELEASE230</netbeans.version>
+        <netbeans.version>RELEASE240</netbeans.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <netbeans.hint.license>apache20</netbeans.hint.license>
         <all.clusters>${project.build.directory}/${brandingToken}</all.clusters>
