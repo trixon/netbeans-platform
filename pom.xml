@@ -407,9 +407,9 @@
     </dependencyManagement>
 
     <repositories>
-        <!--        <repository>
+<!--        <repository>
             <id>netbeans-next</id>
-            <url>https://repository.apache.org/content/repositories/orgapachenetbeans-1144</url>
+            <url>https://repository.apache.org/content/repositories/orgapachenetbeans-1152</url>
         </repository>-->
         <repository>
             <id>mapton</id>
@@ -426,7 +426,7 @@
 
     <properties>
         <almond.version>21.0.0-SNAPSHOT</almond.version>
-        <netbeans.version>RELEASE250</netbeans.version>
+        <netbeans.version>RELEASE260</netbeans.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <netbeans.hint.license>apache20</netbeans.hint.license>
         <all.clusters>${project.build.directory}/${brandingToken}</all.clusters>
