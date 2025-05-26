@@ -251,6 +251,11 @@
             </dependency>
             <dependency>
                 <groupId>org.netbeans.api</groupId>
+                <artifactId>org-openide-filesystems-nb</artifactId>
+                <version>${netbeans.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.netbeans.api</groupId>
                 <artifactId>org-netbeans-modules-options-api</artifactId>
                 <version>${netbeans.version}</version>
             </dependency>
@@ -314,7 +319,7 @@
                 <artifactId>org-netbeans-modules-extbrowser</artifactId>
                 <version>${netbeans.version}</version>
             </dependency>
-            
+
             <!--Apache-->
             <dependency>
                 <groupId>org.apache.commons</groupId>
@@ -335,7 +340,7 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-configuration2</artifactId>
                 <version>2.12.0</version>
-            </dependency>            
+            </dependency>
             <dependency>
                 <groupId>commons-beanutils</groupId>
                 <artifactId>commons-beanutils</artifactId>
@@ -407,7 +412,7 @@
     </dependencyManagement>
 
     <repositories>
-<!--        <repository>
+        <!--        <repository>
             <id>netbeans-next</id>
             <url>https://repository.apache.org/content/repositories/orgapachenetbeans-1152</url>
         </repository>-->
