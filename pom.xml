@@ -349,7 +349,7 @@
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-csv</artifactId>
-                <version>1.14.0</version>
+                <version>1.14.1</version>
             </dependency>
             <dependency>
                 <groupId>commons-logging</groupId>
@@ -431,7 +431,7 @@
 
     <properties>
         <almond.version>21.0.0-SNAPSHOT</almond.version>
-        <netbeans.version>RELEASE260</netbeans.version>
+        <netbeans.version>RELEASE270</netbeans.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <netbeans.hint.license>apache20</netbeans.hint.license>
         <all.clusters>${project.build.directory}/${brandingToken}</all.clusters>
