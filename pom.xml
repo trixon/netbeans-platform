@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>se.trixon.netbeans-platform</groupId>
     <artifactId>parent</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>27</version>
     <packaging>pom</packaging>
     <url>https://github.com/trixon/</url>
 
@@ -52,8 +52,8 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.14.1</version>
                     <configuration>
-                        <source>21</source>
-                        <target>21</target>
+                        <source>25</source>
+                        <target>25</target>
                         <showDeprecation>true</showDeprecation>
                         <compilerArgument>-Xlint:unchecked</compilerArgument>
                         <proc>full</proc>
@@ -430,7 +430,7 @@
     </pluginRepositories>
 
     <properties>
-        <almond.version>21.0.0-SNAPSHOT</almond.version>
+        <almond.version>25.0.0-SNAPSHOT</almond.version>
         <netbeans.version>RELEASE270</netbeans.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <netbeans.hint.license>apache20</netbeans.hint.license>
