@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>se.trixon.netbeans-platform</groupId>
     <artifactId>parent</artifactId>
-    <version>27</version>
+    <version>28</version>
     <packaging>pom</packaging>
     <url>https://github.com/trixon/</url>
 
@@ -431,7 +431,7 @@
 
     <properties>
         <almond.version>25.0.0-SNAPSHOT</almond.version>
-        <netbeans.version>RELEASE270</netbeans.version>
+        <netbeans.version>RELEASE280</netbeans.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <netbeans.hint.license>apache20</netbeans.hint.license>
         <all.clusters>${project.build.directory}/${brandingToken}</all.clusters>
