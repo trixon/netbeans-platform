@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>se.trixon.netbeans-platform</groupId>
     <artifactId>parent</artifactId>
-    <version>28</version>
+    <version>29</version>
     <packaging>pom</packaging>
     <url>https://github.com/trixon/</url>
 
@@ -50,7 +50,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.14.1</version>
+                    <version>3.15.0</version>
                     <configuration>
                         <source>25</source>
                         <target>25</target>
@@ -72,7 +72,7 @@
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>versions-maven-plugin</artifactId>
-                    <version>2.20.1</version>
+                    <version>2.21.0</version>
                     <configuration>
                         <generateBackupPoms>false</generateBackupPoms>
                         <dependencyManagementExcludes>org.slf4j:slf4j-nop</dependencyManagementExcludes>
@@ -173,7 +173,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-dependency-plugin</artifactId>
-                    <version>3.9.0</version>
+                    <version>3.10.0</version>
                 </plugin>
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
@@ -431,7 +431,7 @@
 
     <properties>
         <almond.version>25.0.0-SNAPSHOT</almond.version>
-        <netbeans.version>RELEASE280</netbeans.version>
+        <netbeans.version>RELEASE290</netbeans.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <netbeans.hint.license>apache20</netbeans.hint.license>
         <all.clusters>${project.build.directory}/${brandingToken}</all.clusters>
